@@ -34,7 +34,7 @@ img {
 	background: #0033ff;
 	border-radius: 8px;
 	display: block;
-	padding: 6px;
+	padding: 6px 25px;
 	line-height: 24px;
 	text-align: center;
 }
@@ -187,6 +187,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		text-align: start;
+		align-items: flex-start;
 	}
 
 	// .sounds__title
@@ -208,7 +209,6 @@ body {
 	}
 
 	&__link {
-		max-width: 159px;
 	}
 
 	// .sounds__img
@@ -282,6 +282,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		text-align: start;
+		align-items: flex-start;
 	}
 
 	// .gear__title
@@ -307,12 +308,61 @@ body {
 	// .gear__link
 
 	&__link {
-		max-width: 140px;
 	}
 
 	// .gear__img
 
 	&__img {
 		flex: 0 0 580px;
+	}
+}
+
+.techology {
+	margin-top: 96px;
+	// .techology__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .techology__img
+
+	&__img {
+		flex: 0 0 579px;
+	}
+
+	// .techology__info
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: end;
+		align-items: flex-end;
+	}
+
+	// .techology__title
+
+	&__title {
+		margin-bottom: 5px;
+	}
+
+	// .techology__subtitle
+
+	&__subtitle {
+		margin-bottom: 12px;
+	}
+
+	// .techology__text
+
+	&__text {
+		max-width: 441px;
+		margin-bottom: 18px;
+	}
+
+	// .techology__link
+
+	&__link {
 	}
 }
