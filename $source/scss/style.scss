@@ -265,3 +265,54 @@ body {
 	&__link {
 	}
 }
+
+.gear {
+	margin-top: 96px;
+	// .gear__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .gear__info
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: start;
+	}
+
+	// .gear__title
+
+	&__title {
+		margin-bottom: 5px;
+	}
+
+	// .gear__subtitle
+
+	&__subtitle {
+		margin-bottom: 12px;
+		max-width: 363px;
+	}
+
+	// .gear__text
+
+	&__text {
+		margin-bottom: 23px;
+		max-width: 424px;
+	}
+
+	// .gear__link
+
+	&__link {
+		max-width: 140px;
+	}
+
+	// .gear__img
+
+	&__img {
+		flex: 0 0 580px;
+	}
+}
