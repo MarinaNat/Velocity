@@ -366,3 +366,84 @@ body {
 	&__link {
 	}
 }
+
+.creators {
+	margin: 120px 0;
+	// .creators__title
+
+	&__title {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 24px;
+	}
+
+	// .creators__items
+
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+	}
+
+	// .creators__item
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 32px;
+		background: #f8f8f8;
+		border-radius: 8px;
+		color: #000000;
+	}
+
+	&__item-img {
+		width: 223px;
+		height: 223px;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+	// .creators__item-text
+
+	&__item-text {
+		margin-top: 30px;
+		margin-bottom: 16px;
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 0.3px;
+	}
+
+	// .creators__item-avtor
+
+	&__item-avtor {
+		font-size: 14px;
+		line-height: 20px;
+		color: #767676;
+	}
+}
+
+.video {
+	background-image: url(../img/video/01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// .video__title
+
+	&__title {
+		font-size: 54px;
+		line-height: 60px;
+		margin-bottom: 65px;
+		margin-top: 283px;
+	}
+
+	// .video__btn
+
+	&__btn {
+		margin-bottom: 288px;
+	}
+}
