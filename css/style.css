@@ -492,3 +492,47 @@ body {
 .video__btn {
   margin-bottom: 288px;
 }
+
+.footer {
+  margin-top: 48px;
+  margin-bottom: 60px;
+}
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 83px;
+}
+.footer__menu-list {
+  padding-right: 15px;
+}
+.footer__menu-item {
+  padding-bottom: 11px;
+}
+.footer__menu-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+.footer__menu-link {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a6a8ad;
+}
+.footer__copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #a6a8ad;
+}
+.copy__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
